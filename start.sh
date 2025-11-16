@@ -9,6 +9,11 @@ fi
 
 cat > /usr/share/nginx/html/index.html <<EOF
 <html>
+<head>
+    <meta charset="UTF-8">
+    <title>Twelve Factor</title>
+</head>
+
 <body style="${BODYSTYLE};">
 <h1>$TITLE</h1>
 
@@ -16,6 +21,8 @@ $BODY
 
 <hr/>
 hostname: $HOSTNAME
+<hr/>
+Kopiralyt 2025.Lidvencsorz
 </body>
 </html>
 EOF
